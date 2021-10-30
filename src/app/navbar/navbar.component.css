@@ -1,0 +1,14 @@
+.navbar-brand{
+    margin-left:5% ;
+}
+
+button.btn.btn-outline-success {
+    color: #00aecf;
+    border-color: #ff555f;
+}
+
+button.btn.btn-outline-success:hover {
+    color: white;
+    background-color: #ff555f;
+}
+
