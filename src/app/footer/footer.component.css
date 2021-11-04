@@ -1,0 +1,15 @@
+.footer{
+    background-color: #212529;
+}
+.content.has-text-centered {
+    color: rgb(158, 157, 157);
+}
+
+a.footer-link {
+    color: white;
+    text-decoration: none;
+}
+
+strong {
+    color: #6c757d;
+}

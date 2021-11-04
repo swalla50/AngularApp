@@ -1,0 +1,27 @@
+.home-info{
+    display: inline-flex;
+    width: 100%;
+    background-color: #25a5bd;
+}
+.home-info-left{
+    width:50%;
+    height: auto;
+    place-self: center;
+    background-color: #25a5bd;
+}
+.home-info-right{
+    width:50%;
+    height: auto;
+    background-color: #25a5bd;
+    text-align: -webkit-center;
+}
+.card{
+    width:50%;
+    margin: 5%;
+    border-radius:50px;
+    box-shadow: 0 32px 20px rgb(0 0 0 / 26%);
+}
+
+.content.is-large.has-text-white {
+    padding: 5%;
+}

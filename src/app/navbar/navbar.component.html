@@ -1,38 +1,74 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img src="https://www.clipartmax.com/png/full/39-396912_company-logo-clip-art.png" alt="" width="70" height="100" class="d-inline-block align-text-top">
-        </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
+<nav class="navbar is-fixed-top">
+              <div class="navbar-brand">
+                <a class="navbar-item" href="https://bulma.io">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Genpact_logo.svg" alt="Genpact Logo" width="120" height="100">
+                </a>
+                <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            
+              <div id="navbarExampleTransparentExample" class="navbar-menu">
+                <div class="navbar-start">
+                  <a class="navbar-item" href="https://bulma.io/">
+                    Home
+                  </a>
+                  <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link" href="https://bulma.io/documentation/overview/start/">
+                      Docs
+                    </a>
+                    <div class="navbar-dropdown is-boxed">
+                      <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
+                        Overview
+                      </a>
+                      <a class="navbar-item" href="https://bulma.io/documentation/overview/modifiers/">
+                        Modifiers
+                      </a>
+                      <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
+                        Columns
+                      </a>
+                      <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
+                        Layout
+                      </a>
+                      <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
+                        Form
+                      </a>
+                      <hr class="navbar-divider">
+                      <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
+                        Elements
+                      </a>
+                      <a class="navbar-item" href="https://bulma.io/documentation/components/breadcrumb/">
+                        Components
+                      </a>
+                    </div>
+                  </div>
+                </div>
+            
+                <div class="navbar-end">
+                  <div class="navbar-item">
+                    <div class="field is-grouped">
+                      <p class="control">
+                        <a class="bd-tw-button button is-rounded" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://twitter.com/altnetix" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms">
+                          <span class="icon">
+                            <fa-icon [icon]="faTwitter"></fa-icon>
+                          </span>
+                          <span>
+                            Tweet
+                          </span>
+                        </a>
+                      </p>
+                      <p class="control">
+                        <a class="button is-primary is-rounded" href="https://github.com/swalla50">
+                          <span class="icon">
+                            <fa-icon [icon]="faGithub"></fa-icon>
+                          </span>
+                          <span>Download</span>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>

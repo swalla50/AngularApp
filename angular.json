@@ -27,6 +27,8 @@
               "src/assets"
             ],
             "styles": [
+              "D:/React/AngularApp/node_modules/bulma/css/bulma.css",
+              "D:/React/AngularApp/node_modules/font-awesome/css/font-awesome.css",
               "src/styles.css"
             ],
             "scripts": []

@@ -2,13 +2,41 @@
     margin-left:5% ;
 }
 
-button.btn.btn-outline-success {
-    color: #00aecf;
-    border-color: #ff555f;
+.navbar{
+    background:rgba(0, 0, 0, 0.2);
+}
+.navbar-item{
+    color:white;
+    text-decoration: none;
 }
 
-button.btn.btn-outline-success:hover {
+a.navbar-link {
+    background-color: transparent;
     color: white;
+    text-decoration: none;
+}
+
+.navbar-dropdown.is-boxed {
     background-color: #ff555f;
 }
+.navbar-item.has-dropdown.is-hoverable {
+    background-color: transparent;
 
+}
+.navbar-dropdown.is-boxed {
+    background-color: transparent;
+
+}
+.navbar-item:hover{
+    background-color: transparent;
+}
+a.bd-tw-button.button {
+    text-decoration: none;
+}
+a.button.is-primary {
+    text-decoration: none;
+}
+
+.button.is-primary {
+    background-color: #ff555f;
+}

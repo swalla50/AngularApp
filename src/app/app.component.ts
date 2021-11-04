@@ -7,7 +7,11 @@ import { NavbarComponent } from './navbar/navbar.component';
   styleUrls: ['./app.component.css'],
   template: `
   <app-navbar></app-navbar>
-  <app-home></app-home>
+
+  <router-outlet></router-outlet>
+  <app-homeinfo></app-homeinfo>
+
+  <app-footer></app-footer>
   `
 })
 export class AppComponent {
