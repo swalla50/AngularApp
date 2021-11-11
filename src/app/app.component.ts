@@ -8,7 +8,6 @@ import { NavbarComponent } from './navbar/navbar.component';
   template: `
   <app-navbar></app-navbar>
   <router-outlet></router-outlet>
-  <app-homeinfo></app-homeinfo>
   <app-footer></app-footer>
   `
 })

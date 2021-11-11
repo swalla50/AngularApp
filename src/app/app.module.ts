@@ -12,6 +12,12 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeinfoComponent } from './homeinfo/homeinfo.component';
 import { ModalComponent } from './modal/modal.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { UserComponent } from './user/user.component';
+import { ShowUserComponent } from './user/show-user/show-user.component';
+import { AddEditUserComponent } from './user/add-edit-user/add-edit-user.component';
+import { SharedService } from './shared.service';
+import {HttpClientModule} from '@angular/common/http';
+import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,15 +26,21 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NavbarComponent,
     FooterComponent,
     HomeinfoComponent,
-    ModalComponent
+    ModalComponent,
+    UserComponent,
+    ShowUserComponent,
+    AddEditUserComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
     FontAwesomeModule,
     NgbModule
   ],
-  providers: [],
+  providers: [SharedService],
   bootstrap: [AppComponent]
 })
 export class AppModule { 

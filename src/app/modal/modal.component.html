@@ -10,21 +10,21 @@
         <div class="form-group">
         <label for="Email">Email Address</label>
             <div class="input-group">
-              <input id="Email" class="form-control" placeholder="Please enter your email address" name="dp" ngbDatepicker #dp="ngbDatepicker">
+              <input [(ngModel)]="Email"id="Email" class="form-control" placeholder="Please enter your email address" name="dp" ngbDatepicker #dp="ngbDatepicker">
               <div class="input-group-append">
               </div>
             </div> 
 
         <label for="firstName">First Name</label>
             <div class="input-group">
-                <input id="firstName" class="form-control" placeholder="Please enter your first name" name="dp" ngbDatepicker #dp="ngbDatepicker">
+                <input [(ngModel)]="firstName"id="firstName" class="form-control" placeholder="Please enter your first name" name="dp" ngbDatepicker #dp="ngbDatepicker">
                 <div class="input-group-append">
                 </div>
             </div>
 
         <label for="lastName">Last Name</label>
           <div class="input-group">
-            <input id="lastName" class="form-control" placeholder="Please enter your last name" name="dp" ngbDatepicker #dp="ngbDatepicker">
+            <input [(ngModel)]="lastName"id="lastName" class="form-control" placeholder="Please enter your last name" name="dp" ngbDatepicker #dp="ngbDatepicker">
             <div class="input-group-append">
             </div>
           </div>
@@ -32,7 +32,7 @@
       </form>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Save</button>
+      <button type="button" class="btn btn-outline-dark" (click)="addUser()">SUBMIT</button>
     </div>
   </ng-template>
   
