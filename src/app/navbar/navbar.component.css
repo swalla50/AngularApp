@@ -40,3 +40,7 @@ a.button.is-primary {
 .button.is-primary {
     background-color: #ff555f;
 }
+
+.navbar-end {
+    margin-right: 2%;
+}

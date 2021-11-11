@@ -1,0 +1,31 @@
+button.signup-nav-btn {
+    border-radius: 30px;
+    height: 42px;
+    margin-top: 6%;
+    background: #25a5bd;
+    width:130px;
+    border:none;
+    color: white;
+}
+
+fa-icon.ng-fa-icon.signup-icon {
+    color: white;
+    padding-right: 5%;
+}
+.modal-backdrop.show {
+    opacity: 0.8;
+}
+
+.modal-content{
+    background-color: #212529;
+    border-radius: 30px;
+}
+
+button.close {
+    border-radius: 49px;
+    color: white;
+    border: none;
+    background: #3e8ed0;
+    height: 30px;
+    width: 7%;
+}

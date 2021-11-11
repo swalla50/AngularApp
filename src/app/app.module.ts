@@ -10,6 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeinfoComponent } from './homeinfo/homeinfo.component';
+import { ModalComponent } from './modal/modal.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -17,12 +19,14 @@ import { HomeinfoComponent } from './homeinfo/homeinfo.component';
     HomeComponent,
     NavbarComponent,
     FooterComponent,
-    HomeinfoComponent
+    HomeinfoComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

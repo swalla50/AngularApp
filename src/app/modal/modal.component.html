@@ -1,0 +1,39 @@
+<ng-template #content let-modal id="signup-modal">
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">Please Sign Up Below</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <form>
+        <div class="form-group">
+        <label for="Email">Email Address</label>
+            <div class="input-group">
+              <input id="Email" class="form-control" placeholder="Please enter your email address" name="dp" ngbDatepicker #dp="ngbDatepicker">
+              <div class="input-group-append">
+              </div>
+            </div> 
+
+        <label for="firstName">First Name</label>
+            <div class="input-group">
+                <input id="firstName" class="form-control" placeholder="Please enter your first name" name="dp" ngbDatepicker #dp="ngbDatepicker">
+                <div class="input-group-append">
+                </div>
+            </div>
+
+        <label for="lastName">Last Name</label>
+          <div class="input-group">
+            <input id="lastName" class="form-control" placeholder="Please enter your last name" name="dp" ngbDatepicker #dp="ngbDatepicker">
+            <div class="input-group-append">
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Save</button>
+    </div>
+  </ng-template>
+  
+  <button class="signup-nav-btn" (click)="open(content)"><fa-icon class="signup-icon"[icon]="faUserPlus"></fa-icon>Sign Up</button>
